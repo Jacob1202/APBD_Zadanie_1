@@ -10,5 +10,10 @@
 
             valuesList.ForEach(x  => Console.WriteLine(x));
         }
+
+        public static double CountAverage(List<int> values)
+        {
+            return values.Average();
+        }
     }
 }
